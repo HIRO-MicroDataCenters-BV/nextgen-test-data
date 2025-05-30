@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "dspace": "http://data-space.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@id": "https://github.com/HIRO-MicroDataCenters-BV/nextgen-test-data/catalog-item-6",
+  "@type": "dcat:Dataset",
+  "dcterms:identifier": {
+    "@type": "xsd:string",
+    "@value": "synthetic_dataset_6"
+  },
+  "dcterms:title": {
+    "@language": "en",
+    "@value": "Neurological Test Dataset"
+  },
+  "dcterms:description": {
+    "@language": "en",
+    "@value": "Data mimicking neurological disorders."
+  },
+  "dcat:keyword": [
+    {
+      "@type": "xsd:string",
+      "@value": "Neurology"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Brain"
+    }
+  ],
+  "dcterms:license": {
+    "@type": "xsd:string",
+    "@value": "EUPL"
+  },
+  "dcat:theme": [
+    {
+      "@id": "http://eurovoc.europa.eu/1001",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Health",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/1002",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Technology",
+        "@language": "en"
+      }
+    }
+  ],
+  "dcat:distribution": {
+    "@id": "https://github.com/HIRO-MicroDataCenters-BV/nextgen-test-data/catalog-item-6/distribution-1",
+    "@type": "dcat:Distribution",
+    "dcterms:description": {
+      "@language": "en",
+      "@value": "This is a sample distribution."
+    },
+    "dcat:byteSize": {
+      "@value": 3584,
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "dcat:format": {
+      "@value": "CSV",
+      "@type": "xsd:string"
+    },
+    "dcatap:availability": [
+      {
+        "@id": "http://data.europa.eu/r5r/AVAILABLE",
+        "@type": "skos:Concept",
+        "skos:prefLabel": {
+          "@value": "Available",
+          "@language": "en"
+        }
+      }
+    ],
+    "spdx:checksum": {
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://spdx.org/rdf/terms#SHA256",
+        "@type": "spdx:ChecksumAlgorithm"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "7b9b29895d6c7e7c73e1b7e5c47b4b39"
+      }
+    },
+    "dcat:accessURL": {
+      "@id": "https://github.com/HIRO-MicroDataCenters-BV/nextgen-test-data/catalog-item-6/distribution/information"
+    },
+    "dcat:accessService": [
+      {
+        "@id": "https://github.com/HIRO-MicroDataCenters-BV/nextgen-test-data/catalog-item-6/distribution/service",
+        "@type": "dcat:DataService",
+        "dcterms:title": {
+          "@language": "en",
+          "@value": "SampleDataService"
+        },
+        "dcat:endpointURL": {
+          "@id": "https://github.com/HIRO-MicroDataCenters-BV/nextgen-test-data/catalog-item-6/distribution/service/endpoint"
+        }
+      }
+    ]
+  }
+}
