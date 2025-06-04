@@ -17,11 +17,11 @@
   },
   "dcterms:title": {
     "@language": "en",
-    "@value": "GWAS on Coffee Drinkers vs Tea Drinkers"
+    "@value": "GWAS on Coffee Drinkers"
   },
   "dcterms:description": {
     "@language": "en",
-    "@value": "This dataset contains synthetic data representing theoretical genetic patterns in coffee and tea preference."
+    "@value": "This dataset contains synthetic data representing theoretical genetic patterns in coffee drinkers."
   },
   "dcat:keyword": [
     {
