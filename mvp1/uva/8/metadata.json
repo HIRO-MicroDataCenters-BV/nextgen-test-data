@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dspace": "http://data-space.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@id": "https://uva.nextgen.hiro-develop.nl/dataset-8",
+  "@type": "dcat:Dataset",
+  "dcterms:identifier": {
+    "@type": "xsd:string",
+    "@value": "synthetic_dataset_8"
+  },
+  "dcterms:title": {
+    "@language": "en",
+    "@value": "GWAS on People Who Read Instructions vs Those Who Don’t"
+  },
+  "dcterms:description": {
+    "@language": "en",
+    "@value": "This dataset contains synthetic data exploring fictional genetic traits linked to attention to detail."
+  },
+  "dcat:keyword": [
+    {
+      "@type": "xsd:string",
+      "@value": "GWAS"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Chromosome21"
+    }
+  ],
+  "dcterms:license": {
+    "@type": "xsd:string",
+    "@value": "EUPL"
+  },
+  "dcat:theme": [
+    {
+      "@id": "http://eurovoc.europa.eu/-----",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Health",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/-----",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Cardiology",
+        "@language": "en"
+      }
+    }
+  ],
+  "dcat:distribution": {
+    "@id": "https://uva.nextgen.hiro-develop.nl/dataset-8/distribution",
+    "@type": "dcat:Distribution",
+    "dcterms:description": {
+      "@language": "en",
+      "@value": "This is a demo distribution."
+    },
+    "dcat:byteSize": {
+      "@value": 5038,
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "dcat:format": {
+      "@value": "MMIO",
+      "@type": "xsd:string"
+    },
+    "dcatap:availability": [
+      {
+        "@id": "http://data.europa.eu/r5r/AVAILABLE",
+        "@type": "skos:Concept",
+        "skos:prefLabel": {
+          "@value": "Available",
+          "@language": "en"
+        }
+      }
+    ],
+    "spdx:checksum": {
+      "@id": "https://uva.nextgen.hiro-develop.nl/dataset-8/distribution/checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://spdx.org/rdf/terms#SHA256",
+        "@type": "spdx:ChecksumAlgorithm"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "c3b2a1f0e1d2c3b4a5f6e7d8c9b0a1f2"
+      }
+    },
+    "dcat:accessURL": {
+      "@id": "https://uva.nextgen.hiro-develop.nl/dataset-8/distribution/information"
+    },
+    "dcat:accessService": [
+      {
+        "@id": "https://uva.nextgen.hiro-develop.nl/dataset-8/distribution/service",
+        "@type": "dcat:DataService",
+        "dcterms:title": {
+          "@language": "en",
+          "@value": "This is a demo data service."
+        },
+        "dcat:endpointURL": {
+          "@id": "https://uva.nextgen.hiro-develop.nl/dataset-8/distribution/service/endpoint"
+        }
+      }
+    ]
+  }
+}

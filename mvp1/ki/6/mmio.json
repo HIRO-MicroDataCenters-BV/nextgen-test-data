@@ -1,0 +1,28 @@
+{
+  "version": "0.1",
+  "id": "EI2z8E6zYvMF_yvquoUJedWi0rKpQsscPf7JlBgIDo06",
+  "modalities": [
+    {
+      "id": "EEORbmaaCrfby9K7MH9MY4W6YQTMPQGfyVgSm9MX-_06",
+      "modality_said": "EAM7ZpMK2LqcXZtGB6lqaPqsbbGlLyj1cky9e1yyi806",
+      "modality_type": "Binary",
+      "media_type": "application/octet-stream",
+      "oca_bundle": {
+        "type": "Bundle",
+        "value": {
+			"v": "OCAS20JSON0027a0_",
+			"digest": "EB-d473DxvmtISCVwL2AC_qGHdMNdMdFWeSq7jhMup06",
+			"capture_base": {
+			  "digest": "EM_bfMi0Mx03-AEePdi5vKa5PhO8ZHczc3uNsVzxjy06",
+			  "type": "capture_base/2.0.0",
+			  "attributes": {
+				"age": "Numeric",
+				"sex": "Text"
+			  }
+			},
+			"overlays": {}
+		}
+      }
+    }
+  ]
+}
