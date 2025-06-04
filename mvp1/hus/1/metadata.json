@@ -17,11 +17,11 @@
   },
   "dcterms:title": {
     "@language": "en",
-    "@value": "GWAS on Cat Lovers vs Dog Lovers"
+    "@value": "GWAS on Cats"
   },
   "dcterms:description": {
     "@language": "en",
-    "@value": "This dataset contains synthetic data generated to simulate genetic differences between self-identified cat lovers and dog lovers."
+    "@value": "This dataset contains synthetic data generated for cats."
   },
   "dcat:keyword": [
     {
