@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "dspace": "http://data-space.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@id": "https://hus.nextgen.hiro-develop.nl/dataset-test-3",
+  "@type": "dcat:Dataset",
+  "dcterms:identifier": {
+    "@type": "xsd:string",
+    "@value": "synthetic_dataset_test_3"
+  },
+  "dcterms:title": {
+    "@language": "en",
+    "@value": "GWAS on Sweet Tooth vs Salty Snack Preference"
+  },
+  "dcterms:description": {
+    "@language": "en",
+    "@value": "This dataset contains synthetic data crafted to mimic potential genetic influences on sweet versus salty food preferences."
+  },
+  "dcterms:type": {
+    "@id": "http://purl.org/dc/dcmitype/Dataset",
+    "@type": "skos:Concept",
+    "skos:prefLabel": { "@language": "en", "@value": "Dataset" }
+  },
+  "dcat:keyword": [
+    {
+      "@type": "xsd:string",
+      "@value": "GWAS"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Chromosome21"
+    }
+  ],
+  "dcterms:license": {
+    "@type": "xsd:string",
+    "@value": "EUPL"
+  },
+  "dcat:theme": [
+    {
+      "@id": "http://eurovoc.europa.eu/-----",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Health",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/-----",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Cardiology",
+        "@language": "en"
+      }
+    }
+  ],
+  "dcat:distribution":[
+    {
+      "@id": "https://hus.nextgen.hiro-develop.nl/dataset-test-3/distribution",
+      "@type": "dcat:Distribution",
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "This is a demo distribution."
+      },
+      "dcat:byteSize": {
+        "@value": 9173,
+        "@type": "xsd:nonNegativeInteger"
+      },
+      "dcat:format": {
+        "@value": "MMIO",
+        "@type": "xsd:string"
+      },
+      "dcatap:availability": [
+        {
+          "@id": "http://data.europa.eu/r5r/AVAILABLE",
+          "@type": "skos:Concept",
+          "skos:prefLabel": {
+            "@value": "Available",
+            "@language": "en"
+          }
+        }
+      ],
+      "spdx:checksum": {
+        "@id": "https://hus.nextgen.hiro-develop.nl/dataset-test-3/distribution/checksum",
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": {
+          "@id": "http://spdx.org/rdf/terms#SHA256",
+          "@type": "spdx:ChecksumAlgorithm"
+        },
+        "spdx:checksumValue": {
+          "@type": "xsd:hexBinary",
+          "@value": "a3c8e1f5d7b2a6c3e8f1a0b2d3c4e6f7"
+        }
+      },
+      "dcat:accessURL": {
+        "@id": "file://disease_xyz/images/patient2.dcm"
+      },
+      "dcat:accessService": [
+        {
+          "@id": "https://hus.nextgen.hiro-develop.nl/dataset-test-3/distribution/service",
+          "@type": "dcat:DataService",
+          "dcterms:title": {
+            "@language": "en",
+            "@value": "This is a demo data service."
+          },
+          "dcat:endpointURL": {
+            "@id": "https://hus.nextgen.hiro-develop.nl/dataset-test-3/distribution/service/endpoint"
+          }
+        }
+      ]
+    }
+  ]
+}

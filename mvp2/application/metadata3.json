@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://example.com/dataset/app-xray-004",
+  "@type": "dcat:Dataset",
+
+  "dcterms:identifier": { "@type": "xsd:string", "@value": "app-xray-004" },
+
+  "dcterms:title": { "@language": "en", "@value": "AI Lung X-Ray Classifier" },
+
+  "dcterms:description": {
+    "@language": "en",
+    "@value": "An application for detecting pneumonia and lung abnormalities in chest X-ray images."
+  },
+
+  "dcterms:type": {
+    "@id": "http://purl.org/dc/dcmitype/Software",
+    "@type": "skos:Concept",
+    "skos:prefLabel": { "@language": "en", "@value": "Software" }
+  },
+
+  "dcat:distribution": [
+    {
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://ghcr.io/my-org/lung-xray-classifier:5.0.2"
+      },
+      "dcterms:format": {
+        "@id": "https://www.iana.org/assignments/media-types/application/vnd.docker.distribution.manifest.v2+json",
+        "@type": "dcterms:MediaTypeOrExtent",
+        "skos:prefLabel": { "@language": "en", "@value": "Docker Image v2" }
+      }
+    }
+  ]
+}
