@@ -99,7 +99,7 @@
       }
     },
     "dcat:accessURL": {
-      "@id": "file://genetic_analysis_part2/client_2.h5ad"
+      "@id": "file://disease_xyz/genetic_data.vcf"
     },
     "dcat:accessService": [
       {
