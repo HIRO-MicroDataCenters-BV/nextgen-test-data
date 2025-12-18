@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "id": "EI2z8E6zYvMF_yvquoUJedWi0rKpQsscPf7JlBgIDoOm",
+  "modalities": [
+    {
+      "id": "EDm-vEpoQp_R83YW-dN_eRBdnOnk_hYQo28AISLTy2bO",
+      "modality_said": "EH2pZVTiMKv6I-MY2OjFW_NEf8tvvasEJ761nDxds50W",
+      "modality_type": "Binary",
+      "media_type": "application/octet-stream",
+      "oca_bundle": {
+        "type": "Reference",
+        "value": "EH93ZHJPFBC2QTRxxhdk6ec4M25kJwvtJ8A1gIprg4Bs"
+      }
+    },
+    {
+      "id": "EEORbmaaCrfby9K7MH9MY4W6YQTMPQGfyVgSm9MX-_MA",
+      "modality_said": "EAM7ZpMK2LqcXZtGB6lqaPqsbbGlLyj1cky9e1yyi8z2",
+      "modality_type": "Binary",
+      "media_type": "application/octet-stream",
+      "oca_bundle": {
+        "type": "Reference",
+        "value": "EH93ZHJPFBC2QTRxxhdk6ec4M25kJwvtJ8A1gIprg4Bs"
+      }
+    }
+  ]
+}
